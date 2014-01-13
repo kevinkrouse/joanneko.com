@@ -1,0 +1,97 @@
+img { border: none; }
+
+body {
+	color: #5c5c5c;
+	background: #5c5c5c;
+	font-family: Georga, Arial, Verdana, sans-serif;
+	text-shadow: rgba(255, 255, 255, 0.01) 0px -1px 1px;
+	font-size: 14px;
+	line-height: 24px;
+	border: 0;
+	margin: 0;
+}
+
+p {	padding: 0 15px 0 15px; margin: 0 95px 20px 95px; }
+
+ol, ul { padding: 0 15px 0 40px; margin: 10px 95px 0 95px; }
+
+#frame {
+	background-color: #fff;
+	width: 100%;
+	padding-bottom: 30px;
+}
+
+#core {
+	width: 				750px;
+	margin: 			0 auto 0 auto;
+	}
+
+#masthead {
+	text-align:			center;
+	margin:				10px 0 30px 0;
+	padding-top:		30px;
+	border-bottom: 		1px solid #ccc;
+}
+
+#title span { display: none; }
+
+#title a {
+	display: block;
+	width: 398px;
+	height: 55px;
+	background: url(../images/logo.png) 0 0 no-repeat;
+	margin: 30px auto 10px auto;
+}
+
+#home .intro p { 
+	color: #666;	
+	font-family: "Adobe Garamond Pro", Garamond, Times New Roman, Georgia, serif; 
+	font-size:	28px;
+	line-height: 36px;
+	padding: 0;
+	margin: 0 20px 20px 20px;
+}
+
+#footer {
+	background: url(../images/footer_new.jpg) no-repeat;
+	color: 				#fff;
+	width: 				750px;
+	min-height:			260px;
+	margin: 			0px auto 40px auto;
+	padding-top:		20px;
+}
+
+#footer p { font: italic 12px Georgia; text-align: center; padding: 15px; }
+
+#footer a:link { color: #fff; text-decoration: none; border-bottom: 1px dotted #888; }
+#footer a:visited { color: #fff; text-decoration: none; border-bottom: 1px dotted #888; }
+#footer a:hover { color: #fff; text-decoration: none; border-bottom: 1px solid #FFF; }
+#footer a:active { color: #fff; text-decoration: none; border-bottom: 1px dotted #888; }
+
+#nav {
+	width: 			398px;
+	height: 		36px;
+	background: 	url(../images/logo.png) 0px -66px no-repeat;
+	margin: 		0 auto 25px auto;
+	padding: 		0;
+	position: 		relative;
+	top: 			0px;
+}
+
+#nav span { display: none; }
+
+#nav li { margin: 0px; padding: 0px; list-style: none; position: absolute; top: 0px; }
+
+#nav li, #nav a { height: 36px; display: block; }
+#nav1 { left: 0px; width: 105px; }
+#nav2 { left: 105px; width: 157px; }
+#nav3 { left: 262px; width: 136px; }
+
+#nav1 a:hover { background: transparent url(../images/logo.png) 0px -98px no-repeat;}
+#nav2 a:hover { background: transparent url(../images/logo.png) -105px -98px no-repeat;}
+#nav3 a:hover { background: transparent url(../images/logo.png) -262px -98px no-repeat;}
+
+#nav1.selected { background: transparent url(../images/logo.png) 0px -130px no-repeat; }
+#nav2.selected { background: transparent url(../images/logo.png) -105px -130px no-repeat; }
+#nav3.selected { background: transparent url(../images/logo.png) -262px -130px no-repeat; }
+
